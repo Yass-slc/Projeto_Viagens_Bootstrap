@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://brazilcore.com/wp-content/uploads/2024/10/Sao-Paulo-MASP-Foto-TripAdvisor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+    .card00{
+         display: flex;
+        align-items: stretch;
+        gap: 700px;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 20px;
+    }

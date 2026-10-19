@@ -1,0 +1,9 @@
+
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/2170245.jpg');
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    height: 963px; /* Evita que a imagem se repita */
+    background-size: cover;
+  }
