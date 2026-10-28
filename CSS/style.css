@@ -53,8 +53,7 @@
 /* Imagem dentro do Modal */
 .modal-body img {
   width: 100%;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  height: 430px;
 }
 
 /* Rodapé do Modal */
@@ -78,13 +77,12 @@
 
 /* Cria uma caixa separada para o Accordion. O max-width evita que fique muito largo. */
 .faq-box {
-  max-width: 850px;/* Centraliza a caixa */
-  margin: 0 auto;/* Espaçamento interno */
-  padding: 35px; /* Fundo da caixa */
-  background-color: #ffffff;/* Cantos arredondados */
-  border-radius: 18px; /* Borda */
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border-radius: 18px; 
   border: 1px solid #e9ecef;
-  /* Sombra para criar sensação de elevação */
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
@@ -124,30 +122,22 @@
 
 /* ÁREA DA RESPOSTA */
 .faq-box .accordion-body {
-  /* Espaçamento interno maior */
   padding: 25px;
-  /* Espaçamento entre linhas */
   line-height: 1.7;
-  /* Fundo da resposta */
   background-color: #ffffff;
 }
 
 /* BOTÃO DA PERGUNTA */
 
 .faq-box .accordion-button {
-  /* Espaçamento interno */
   padding: 20px 22px;
-  /* Tamanho do texto */
   font-size: 1rem;
-  /* Deixa a pergunta em destaque */
   font-weight: 600;
-  /* Cor de fundo */
   background-color: #f8f9fa;
 }
 
 /* PERGUNTA ABERTA */
 .faq-box .accordion-button:not(.collapsed) {
   background-color: #e9ecef;
-  /* Remove sombra padrão */
   box-shadow: none;
 }
